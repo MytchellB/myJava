@@ -12,13 +12,17 @@ public class compoundInterest {
 			System.out.println("Enter principal amount: ");
 			double principal = keyboard.nextInt();
 			
-			keyboard.nextLine();
 			System.out.println("Enter interest rate: ");
 			double interest = keyboard.nextDouble() * .01;
 			
-			double amount = principal * Math.pow(1 + (interest / 12), 12);
+			System.out.println("Enter number of years: ");
+			double years = keyboard.nextDouble();
 			
-			System.out.println( (double) Math.round(amount * 100) / 100);
+			for ( int i = 1; i <= years; i++ ) {
+				double amount = principal * Math.pow(1 + (interest / 12), 12 * i);
+				
+				System.out.println( (double) Math.round(amount * 100) / 100);
+			}
 			
 		}
 		
