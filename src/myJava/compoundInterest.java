@@ -15,11 +15,10 @@ public class compoundInterest {
 			keyboard.nextLine();
 			System.out.println("Enter interest rate: ");
 			double interest = keyboard.nextDouble() * .01;
-			System.out.println(principal);
 			
 			double amount = principal * Math.pow(1 + (interest / 12), 12);
 			
-			System.out.println(amount);
+			System.out.println( (double) Math.round(amount * 100) / 100);
 			
 		}
 		
