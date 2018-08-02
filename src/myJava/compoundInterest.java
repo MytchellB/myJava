@@ -10,20 +10,21 @@ public class compoundInterest {
 			Scanner keyboard = new Scanner(System.in);
 			
 			System.out.println("Enter principal amount: ");
-			int principal = keyboard.nextInt();
+			double principal = keyboard.nextInt();
 			
-			System.out.println("Enter interest ratet: ");
-			double interest = (keyboard.nextDouble()) * .01;
+			keyboard.nextLine();
+			System.out.println("Enter interest rate: ");
+			double interest = keyboard.nextDouble() * .01;
+			System.out.println(principal);
 			
-			double amount = principal * Math.pow((1 + (interest / 12)), 1);
+			double amount = principal * Math.pow(1 + (interest / 12), 12);
 			
-			System.out.println(amount + '\n');
+			System.out.println(amount);
 			
 		}
 		
 		public static void main(String[] args) {
 			
-		
 			calculateCompoundInterest();
 		}
 
