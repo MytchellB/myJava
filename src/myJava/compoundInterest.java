@@ -23,12 +23,13 @@ public class compoundInterest {
 				
 				System.out.println( (double) Math.round(amount * 100) / 100);
 			}
-			
+			keyboard.close();
 		}
 		
 		public static void main(String[] args) {
 			
 			calculateCompoundInterest();
+			
 		}
 
 }
