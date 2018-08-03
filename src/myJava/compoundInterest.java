@@ -23,8 +23,12 @@ public class compoundInterest {
 		}
 		
 		public static String checkValidPassword(String myPassword) {
-			
-			return("Valid Password!");
+			if(myPassword.length() > 9) {
+//				String.split(myPassword);
+//				if()
+				return(myPassword);
+			}
+			return(myPassword);
 		}
 		
 		public static void main(String[] args) {
@@ -32,6 +36,5 @@ public class compoundInterest {
 			
 			System.out.println("Enter password:");
 			System.out.println(checkValidPassword(keyboard.nextLine()));	
-		}
-		
+		}	
 }
