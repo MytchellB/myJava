@@ -4,11 +4,9 @@ import java.util.Scanner;
 import java.math.*;
 
 public class compoundInterest {
-	
+	static Scanner keyboard = new Scanner(System.in);
 	
 		public static void calculateCompoundInterest() {
-			Scanner keyboard = new Scanner(System.in);
-			
 			System.out.println("Enter principal amount: ");
 			double principal = keyboard.nextInt();
 			
@@ -20,16 +18,20 @@ public class compoundInterest {
 			
 			for ( int i = 1; i <= years; i++ ) {
 				double amount = principal * Math.pow(1 + (interest / 12), 12 * i);
-				
 				System.out.println( (double) Math.round(amount * 100) / 100);
 			}
-			keyboard.close();
+		}
+		
+		public static String checkValidPassword(String myPassword) {
+			
+			return("Valid Password!");
 		}
 		
 		public static void main(String[] args) {
+//			calculateCompoundInterest();
 			
-			calculateCompoundInterest();
-			
+			System.out.println("Enter password:");
+			System.out.println(checkValidPassword(keyboard.nextLine()));	
 		}
-
+		
 }
