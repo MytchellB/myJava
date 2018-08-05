@@ -26,12 +26,17 @@ public class compoundInterest {
 			return .5 * base * height;
 		}
 		
+		public static double calculateAreaOfPentagon(double pentagonSide) {
+			return .25 * Math.sqrt( 5 *(5+2 * Math.sqrt(5))) * Math.pow(pentagonSide, 2);
+		}
+		
 		public static void main(String[] args) {
 //			calculateCompoundInterest();
 			
-			System.out.println("Enter base of triangle then height:");
-			System.out.println("Area of Triangle is: " + calculateAreaOfTriangle(keyboard.nextDouble(), keyboard.nextDouble()));
+//			System.out.println("Enter base of triangle then height:");
+//			System.out.println("Area of Triangle is: " + calculateAreaOfTriangle(keyboard.nextDouble(), keyboard.nextDouble()));
 			
-			
+			System.out.println("Enter one side of pentagon:");
+			System.out.println("Area of Pentagon is: " + calculateAreaOfPentagon(keyboard.nextDouble()));
 		}	
 }
