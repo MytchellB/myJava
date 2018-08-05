@@ -22,19 +22,16 @@ public class compoundInterest {
 			}
 		}
 		
-		public static String checkValidPassword(String myPassword) {
-			if(myPassword.length() > 9) {
-//				String.split(myPassword);
-//				if()
-				return(myPassword);
-			}
-			return(myPassword);
+		public static double calculateAreaOfTriangle(double base, double height) {
+			return .5 * base * height;
 		}
 		
 		public static void main(String[] args) {
 //			calculateCompoundInterest();
 			
-			System.out.println("Enter password:");
-			System.out.println(checkValidPassword(keyboard.nextLine()));	
+			System.out.println("Enter base of triangle then height:");
+			System.out.println("Area of Triangle is: " + calculateAreaOfTriangle(keyboard.nextDouble(), keyboard.nextDouble()));
+			
+			
 		}	
 }
