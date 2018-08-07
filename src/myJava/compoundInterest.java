@@ -50,7 +50,9 @@ public class compoundInterest {
 //			System.out.println("Enter non-negative integer to count occurrences of digit 7:");
 //			System.out.println("There are " + class1.countOccurrencesof7(keyboard.nextInt()) + " number sevens!");
 			
-			System.out.println("Enter String (will replace occurrences of pi with 3.14):");
-			System.out.println(class1.replacePi(keyboard.nextLine()));
+//			System.out.println("Enter String (will replace occurrences of pi with 3.14):");
+//			System.out.println(class1.replacePi(keyboard.nextLine()));
+			
+			System.out.println(class1.mapTest());
 		}	
 }

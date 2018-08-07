@@ -1,5 +1,8 @@
 package myJava;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class myJavaClass {
 	int bunnyEarsTotal = 0;
 	int occurrencesof7Total = 0;
@@ -50,5 +53,12 @@ public class myJavaClass {
 		}
 	}
 	
+	public boolean mapTest() {
+		Map<String, String> map = new HashMap<String, String>();
+		map.put("es", "Spain");
+		System.out.println(map.get("es"));
+		System.out.println(map.get("us"));
+		return true;
+	}
 	
 }
