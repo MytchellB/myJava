@@ -17,4 +17,9 @@ public class myJavaClass {
 		}	
 	}
 	
+	public int countOccurrencesof7(int myInteger) {
+//		if ( )
+		return 0;
+	}
+	
 }
