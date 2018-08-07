@@ -40,4 +40,15 @@ public class myJavaClass {
 		}
 	}
 	
+	public String replacePi(String myString) {
+		if ( !myString.contains("pi")) {
+			return myString;
+		}
+		else {
+			myString = myString.replace("pi", "3.14");
+			return myString;
+		}
+	}
+	
+	
 }
