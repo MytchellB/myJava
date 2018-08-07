@@ -39,7 +39,8 @@ public class compoundInterest {
 //			System.out.println("Enter one side of pentagon:");
 //			System.out.println("Area of Pentagon is: " + calculateAreaOfPentagon(keyboard.nextDouble()));
 			
-			myJavaClass c = new myJavaClass();
-			c.firstFunction();
+			System.out.println("Enter number of Bunnies:");
+			myJavaClass class1 = new myJavaClass();
+			System.out.println(class1.countBunnyEars(keyboard.nextInt()));
 		}	
 }
