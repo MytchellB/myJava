@@ -6,6 +6,7 @@ import java.util.Map;
 public class myJavaClass {
 	int bunnyEarsTotal = 0;
 	int occurrencesof7Total = 0;
+	int groupSumCounter = 0;
 	
 	public int countBunnyEars(int numBunnyEars){
 		if ( numBunnyEars == 0 ) {
@@ -59,6 +60,23 @@ public class myJavaClass {
 		System.out.println(map.get("es"));
 		System.out.println(map.get("us"));
 		return true;
+	}
+	
+	public int groupSum(int start, int[] nums, int target) {
+		if ( groupSumCounter == nums.length - 1 ) {
+			if ( start == target ) {
+				System.out.println("Correct Answer");
+				return 1;
+			}
+			else {
+				System.out.println("No Answer");
+				return 0;
+			}
+		}
+		else {
+			
+			return groupSum(start, nums, target);
+		}
 	}
 	
 }

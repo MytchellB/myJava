@@ -53,6 +53,11 @@ public class compoundInterest {
 //			System.out.println("Enter String (will replace occurrences of pi with 3.14):");
 //			System.out.println(class1.replacePi(keyboard.nextLine()));
 			
-			System.out.println(class1.mapTest());
+//			System.out.println(class1.mapTest());
+			
+			int start = 0;
+			int nums[] = new int[10];
+			int target = 10;
+			System.out.println(class1.groupSum(start, nums, target));
 		}	
 }
