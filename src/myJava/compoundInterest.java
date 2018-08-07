@@ -36,7 +36,10 @@ public class compoundInterest {
 //			System.out.println("Enter base of triangle then height:");
 //			System.out.println("Area of Triangle is: " + calculateAreaOfTriangle(keyboard.nextDouble(), keyboard.nextDouble()));
 			
-			System.out.println("Enter one side of pentagon:");
-			System.out.println("Area of Pentagon is: " + calculateAreaOfPentagon(keyboard.nextDouble()));
+//			System.out.println("Enter one side of pentagon:");
+//			System.out.println("Area of Pentagon is: " + calculateAreaOfPentagon(keyboard.nextDouble()));
+			
+			myJavaClass c = new myJavaClass();
+			c.firstFunction();
 		}	
 }
