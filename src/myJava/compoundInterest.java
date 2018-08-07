@@ -31,6 +31,8 @@ public class compoundInterest {
 		}
 		
 		public static void main(String[] args) {
+			myJavaClass class1 = new myJavaClass();
+			
 //			calculateCompoundInterest();
 			
 //			System.out.println("Enter base of triangle then height:");
@@ -39,13 +41,13 @@ public class compoundInterest {
 //			System.out.println("Enter one side of pentagon:");
 //			System.out.println("Area of Pentagon is: " + calculateAreaOfPentagon(keyboard.nextDouble()));
 			
-			System.out.println("Enter number of Bunnies:");
-			myJavaClass class1 = new myJavaClass();
-			System.out.println("There are " + class1.countBunnyEars(keyboard.nextInt()) + " Bunny Ears!");
-			class1.bunnyEarsTotal = 0;
-			System.out.println("There are " + class1.countBunnyEars(keyboard.nextInt()) + " Bunny Ears!");
-			class1.bunnyEarsTotal = 0;
+//			System.out.println("Enter number of Bunnies:");
+//			System.out.println("There are " + class1.countBunnyEars(keyboard.nextInt()) + " Bunny Ears!");
+//			class1.bunnyEarsTotal = 0;
+//			System.out.println("There are " + class1.countBunnyEars(keyboard.nextInt()) + " Bunny Ears!");
+//			class1.bunnyEarsTotal = 0;
 			
-			
+			System.out.println("Enter non-negative integer to count occurrences of digit 7:");
+			System.out.println("There are " + class1.countOccurrencesof7(keyboard.nextInt()) + " number sevens!");
 		}	
 }
