@@ -41,6 +41,6 @@ public class compoundInterest {
 			
 			System.out.println("Enter number of Bunnies:");
 			myJavaClass class1 = new myJavaClass();
-			System.out.println(class1.countBunnyEars(keyboard.nextInt()));
+			System.out.println("There are " + class1.countBunnyEars(keyboard.nextInt()) + " Bunny Ears!");
 		}	
 }
