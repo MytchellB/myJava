@@ -66,7 +66,10 @@ public class compoundInterest {
 //			int small = 3, big = 1, goal = 8;
 //			System.out.println(class1.makeBricks(small, big, goal));
 			
-			int nums2[] = new int[] {1, 1, 4};
-			System.out.println(class1.scoresIncreasing(nums2));
+//			int nums2[] = new int[] {1, 1, 4};
+//			System.out.println(class1.scoresIncreasing(nums2));
+			
+			int nums3[] = new int[] {3, 4, 5, 1, 2, 3};
+			System.out.println(class1.scoresAverage(nums3));
 		}	
 }

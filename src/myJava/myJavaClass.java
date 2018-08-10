@@ -112,6 +112,25 @@ public class myJavaClass {
 		return true; 
 	}
 
+	public int scoresAverage(int[] scores) {
+		int leftSum = average(scores, 0, scores.length / 2 - 1); // Find average of first half of array.
+		int rightSum = average(scores, scores.length / 2, scores.length - 1); // Find average of second half of array.
+		if ( leftSum > rightSum ) {
+			return leftSum;
+		}
+		else {
+			return rightSum;
+		}
+	}
 
+	public int average(int[] scores, int start, int end) {
+		int totalNums = 0;
+		int totalSum = 0;
+		for ( int i = start; i <= end; i++) {
+			totalSum += scores[i];
+			totalNums++;
+		}
+		return totalSum / totalNums;
+	}
 	
 }
