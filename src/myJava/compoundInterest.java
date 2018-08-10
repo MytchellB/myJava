@@ -56,8 +56,17 @@ public class compoundInterest {
 //			System.out.println(class1.mapTest());
 			
 			int start = 0;
-			int nums[] = new int[10];
+			int nums[] = new int[] {1, 1, 1, 2, 1};
+//			for ( int i = 0; i < 10; i++) {
+//				nums[i] = i++;
+//			}
 			int target = 10;
-			System.out.println(class1.groupSum(start, nums, target));
+//			System.out.println(class1.groupSum(start, nums, target));
+			
+//			int small = 3, big = 1, goal = 8;
+//			System.out.println(class1.makeBricks(small, big, goal));
+			
+			int nums2[] = new int[] {1, 3, 4};
+			System.out.println(class1.scoresIncreasing(nums2));
 		}	
 }

@@ -62,7 +62,7 @@ public class myJavaClass {
 		return true;
 	}
 	
-	public int groupSum(int start, int[] nums, int target) {
+	public int groupSum2(int start, int[] nums, int target) {
 		if ( groupSumCounter == nums.length - 1 ) {
 			if ( start == target ) {
 				System.out.println("Correct Answer");
@@ -75,8 +75,39 @@ public class myJavaClass {
 		}
 		else {
 			
-			return groupSum(start, nums, target);
+			return groupSum2(start, nums, target);
 		}
 	}
+	
+	public boolean groupSum(int start, int[] nums, int target)
+	{
+	  if(target == 0)
+	  	return true;
+	  if(start == nums.length)
+	  	return false;
+	  if(groupSum(start + 1, nums, target - nums[start]))
+	  	return true;
+	  return groupSum(start + 1, nums, target);
+	}
+	
+	public boolean makeBricks(int small, int big, int goal) { // 3 1 8
+		int myGoalSum = 0;
+		int totalNumBricks = small + big;
+		for ( int i = 0; i < big; i++) {
+			if ( goal >= 5  ) {
+				System.out.println("goal is larger than 5");
+			}
+			myGoalSum += 5;
+			goal -= 5;
+		}
+		  return true;
+	}
+	
+	public boolean scoresIncreasing(int[] scores) {
+		  return true;
+		  
+	}
+
+
 	
 }
