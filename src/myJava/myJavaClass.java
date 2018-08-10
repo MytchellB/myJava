@@ -133,4 +133,11 @@ public class myJavaClass {
 		return totalSum / totalNums;
 	}
 	
+	public int scoreUp(String[] key, String[] answers) {
+		
+		
+		  return 0;
+	}
+
+	
 }
