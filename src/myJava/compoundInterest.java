@@ -69,7 +69,12 @@ public class compoundInterest {
 //			int nums2[] = new int[] {1, 1, 4};
 //			System.out.println(class1.scoresIncreasing(nums2));
 			
-			int nums3[] = new int[] {3, 4, 5, 1, 2, 3};
-			System.out.println(class1.scoresAverage(nums3));
+//			int nums3[] = new int[] {3, 4, 5, 1, 2, 3};
+//			System.out.println(class1.scoresAverage(nums3));
+			
+			String key[] = new String[] {"a", "a", "b", "b"};
+			String answers[] = new String[] {"a", "a", "b", "b"};
+			
+			System.out.println(class1.scoreUp(key, answers));
 		}	
 }

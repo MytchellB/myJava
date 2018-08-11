@@ -134,9 +134,18 @@ public class myJavaClass {
 	}
 	
 	public int scoreUp(String[] key, String[] answers) {
-		
-		
-		  return 0;
+		int totalScore = 0;
+		for ( int i = 0; i < key.length; i++) {
+			if ( key[i] == answers[i]) {
+				totalScore += 4;
+			}
+			else {
+				if ( answers[i] != "?" ) {
+				totalScore -= 1;
+				}
+			}
+		}
+		  return totalScore;
 	}
 
 	
