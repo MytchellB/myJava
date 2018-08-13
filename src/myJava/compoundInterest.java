@@ -78,9 +78,14 @@ public class compoundInterest {
 //			
 //			System.out.println(class1.scoreUp(key, answers));
 			
-			int nums3[] = new int[] {5, 3, 6, 7, 2};
-			int start = 0;
-			int end = 4;
-			System.out.println(class1.sumHeights(nums3, start, end));
+//			int nums3[] = new int[] {5, 3, 6, 7, 2};
+//			int start = 0;
+//			int end = 4;
+//			System.out.println(class1.sumHeights(nums3, start, end));
+			
+			int nums4[] = new int[] {100, 1, 100, 100};
+			System.out.println(class2.scores100(nums4));
+			
+			
 		}	
 }
