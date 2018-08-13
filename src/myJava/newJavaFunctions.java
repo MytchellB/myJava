@@ -20,6 +20,28 @@ public class newJavaFunctions {
 		return false;
 	}
 	
-	
+	public String[] mergeTwo(String[] a, String[] b, int n) {
+		String c[] = new String[n];
+		int aCounter = 0, bCounter = 0;
+		String currentAChar, currentBChar;
+		char aChar, bChar;
+		for ( int i = 0; i < n; i++ ) {
+			currentAChar = a[aCounter];
+			currentBChar = b[bCounter];
+			aChar = currentAChar.charAt(0);
+			bChar = currentBChar.charAt(0);
+			if ( aChar > bChar) {
+				c[i] = currentAChar;
+				aCounter++;
+			}
+			else {
+				c[i] = currentBChar;
+				bCounter++;
+			}
+			System.out.println(c[i]);
+		}
+		
+		return c;
+	}
 	
 }

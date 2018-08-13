@@ -83,8 +83,13 @@ public class compoundInterest {
 //			int end = 4;
 //			System.out.println(class1.sumHeights(nums3, start, end));
 			
-			int nums4[] = new int[] {100, 1, 100, 100};
-			System.out.println(class2.scores100(nums4));
+//			int nums4[] = new int[] {100, 1, 100, 100};
+//			System.out.println(class2.scores100(nums4));
+			
+			String stringArray[] = new String[] {"a", "c", "z"};
+			String stringArray2[] = new String[] {"a", "b", "c"};
+			int numChars = 3;
+			System.out.println(class2.mergeTwo(stringArray, stringArray2, numChars));
 			
 			
 		}	
