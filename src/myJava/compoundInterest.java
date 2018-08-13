@@ -55,8 +55,8 @@ public class compoundInterest {
 			
 //			System.out.println(class1.mapTest());
 			
-			int start = 0;
-			int nums[] = new int[] {1, 1, 1, 2, 1};
+//			int start = 0;
+//			int nums[] = new int[] {1, 1, 1, 2, 1};
 //			for ( int i = 0; i < 10; i++) {
 //				nums[i] = i++;
 //			}
@@ -72,9 +72,14 @@ public class compoundInterest {
 //			int nums3[] = new int[] {3, 4, 5, 1, 2, 3};
 //			System.out.println(class1.scoresAverage(nums3));
 			
-			String key[] = new String[] {"a", "a", "b", "b"};
-			String answers[] = new String[] {"a", "a", "b", "b"};
+//			String key[] = new String[] {"a", "a", "b", "b"};
+//			String answers[] = new String[] {"a", "a", "b", "b"};
+//			
+//			System.out.println(class1.scoreUp(key, answers));
 			
-			System.out.println(class1.scoreUp(key, answers));
+			int nums3[] = new int[] {5, 3, 6, 7, 2};
+			int start = 0;
+			int end = 4;
+			System.out.println(class1.sumHeights(nums3, start, end));
 		}	
 }

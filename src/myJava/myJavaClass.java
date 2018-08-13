@@ -147,6 +147,15 @@ public class myJavaClass {
 		}
 		  return totalScore;
 	}
+	
+	public int sumHeights(int[] heights, int start, int end) {
+		int difference = 0, differenceSum = 0;
+		for ( int i = start; i < end; i++) {
+			difference = Math.abs(heights[i] - heights[i+1]);
+			differenceSum += difference;
+		}
+		return differenceSum;
+	}
 
 	
 }
