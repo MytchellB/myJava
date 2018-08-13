@@ -32,6 +32,7 @@ public class compoundInterest {
 		
 		public static void main(String[] args) {
 			myJavaClass class1 = new myJavaClass();
+			newJavaFunctions class2 = new newJavaFunctions();
 			
 //			calculateCompoundInterest();
 			
@@ -60,7 +61,7 @@ public class compoundInterest {
 //			for ( int i = 0; i < 10; i++) {
 //				nums[i] = i++;
 //			}
-			int target = 10;
+//			int target = 10;
 //			System.out.println(class1.groupSum(start, nums, target));
 			
 //			int small = 3, big = 1, goal = 8;
