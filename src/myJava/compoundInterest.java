@@ -88,8 +88,11 @@ public class compoundInterest {
 //			int numChars = 3;
 //			System.out.println(class2.mergeTwo(stringArray, stringArray2, numChars));
 			
-			int small = 7, big = 1, goal = 11;
-			System.out.println(class2.makeBricks(small, big, goal));
+//			int small = 7, big = 1, goal = 11;
+//			System.out.println(class2.makeBricks(small, big, goal));
+			
+			int small = 4, big = 1, goal = 9;
+			System.out.println(class2.makeChocolate(small, big, goal));
 			
 		}	
 }

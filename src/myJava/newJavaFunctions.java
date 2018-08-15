@@ -62,4 +62,15 @@ public class newJavaFunctions {
 		return false;
 	}
 	
+	public int makeChocolate(int small, int big, int goal) {
+		goal -= big * 5;
+		if ( goal % 5 < small ) {
+			return small - goal;
+		}
+		else if ( goal % 5 == small) {
+			return small;
+		}
+		return -1;	
+	}
+	
 }
