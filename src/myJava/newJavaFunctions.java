@@ -63,15 +63,18 @@ public class newJavaFunctions {
 	}
 	
 	public int makeChocolate(int small, int big, int goal) {
-		while ( goal > 5 && big != 0 ) {
+		while ( goal >= 5 && big != 0 ) {
 			goal -= 5;
 			big--;
 		}
-		if ( goal % 5 < small ) {
-			return goal % 5;
-		}
-		else if ( goal % 5 == small) {
+		if ( goal % 5 == small) {
 			return small;
+		}
+		else if ( goal == 0 ) {
+			return 0;
+		}
+		else if ( small >= goal ) {
+			return goal;
 		}
 		return -1;	
 	}
