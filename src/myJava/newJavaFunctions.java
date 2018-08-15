@@ -44,4 +44,22 @@ public class newJavaFunctions {
 		return c;
 	}
 	
+	public boolean makeBricks(int small, int big, int goal) { // 3 1 8
+		int numBigLeft = big;
+		int numSmallLeft = small;
+		
+		while ( goal >= 5 && numBigLeft >= 1 ) {
+			goal -= 5;
+			numBigLeft--;
+		}
+		while ( goal >= 1 && numSmallLeft >= 1 ) {
+			goal -= 1;
+			numSmallLeft--;
+		}
+		if ( goal == 0 ) {
+			return true;
+		}
+		return false;
+	}
+	
 }

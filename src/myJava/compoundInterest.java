@@ -64,9 +64,6 @@ public class compoundInterest {
 //			int target = 10;
 //			System.out.println(class1.groupSum(start, nums, target));
 			
-//			int small = 3, big = 1, goal = 8;
-//			System.out.println(class1.makeBricks(small, big, goal));
-			
 //			int nums2[] = new int[] {1, 1, 4};
 //			System.out.println(class1.scoresIncreasing(nums2));
 			
@@ -86,11 +83,13 @@ public class compoundInterest {
 //			int nums4[] = new int[] {100, 1, 100, 100};
 //			System.out.println(class2.scores100(nums4));
 			
-			String stringArray[] = new String[] {"a", "c", "z"};
-			String stringArray2[] = new String[] {"a", "b", "c"};
-			int numChars = 3;
-			System.out.println(class2.mergeTwo(stringArray, stringArray2, numChars));
+//			String stringArray[] = new String[] {"a", "c", "z"};
+//			String stringArray2[] = new String[] {"a", "b", "c"};
+//			int numChars = 3;
+//			System.out.println(class2.mergeTwo(stringArray, stringArray2, numChars));
 			
+			int small = 7, big = 1, goal = 11;
+			System.out.println(class2.makeBricks(small, big, goal));
 			
 		}	
 }

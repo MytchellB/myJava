@@ -90,19 +90,6 @@ public class myJavaClass {
 	  return groupSum(start + 1, nums, target);
 	}
 	
-	public boolean makeBricks(int small, int big, int goal) { // 3 1 8
-		int myGoalSum = 0;
-		int totalNumBricks = small + big;
-		for ( int i = 0; i < big; i++) {
-			if ( goal >= 5  ) {
-				System.out.println("goal is larger than 5");
-			}
-			myGoalSum += 5;
-			goal -= 5;
-		}
-		  return true;
-	}
-	
 	public boolean scoresIncreasing(int[] scores) {
 		for ( int i = 0; i < scores.length - 1; i++) {
 			if ( scores[i + 1] < scores[i]) {
