@@ -101,5 +101,10 @@ public class newJavaFunctions {
 		return last2CharsCount;
 	}
 
+	public boolean array123(int[] nums) {
+		
+		
+		return true;
+	}
 	
 }
