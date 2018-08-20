@@ -111,4 +111,17 @@ public class newJavaFunctions {
 		return false;
 	}
 	
+	public String altPairs(String str) {
+		String newStr = "";
+		for ( int i = 0; i < str.length(); i++ ) {
+			newStr += str.charAt(i);
+			i++;
+			if ( i < str.length() ) {
+				newStr += str.charAt(i);
+			}
+			i += 2;
+		}
+		return newStr;
+	}
+	
 }

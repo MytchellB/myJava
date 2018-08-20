@@ -77,7 +77,10 @@ public class functionTestCase {
 //		String str = "hixxhi", str2 = "xaxxaxaxx", str3 = "axxxaaxx";
 //		System.out.println(class2.last2(str) + "\n" + class2.last2(str2) + "\n" + class2.last2(str3));
 		
-		int nums[] = new int[] {1, 1, 2, 3, 1}, nums2[] = new int[] {1, 1, 2, 4, 1}, nums3[] = new int[] {1, 1, 2, 1, 2, 3};
-		System.out.println(class2.array123(nums) + "\n" + class2.array123(nums2) + "\n" + class2.array123(nums3));
+//		int nums[] = new int[] {1, 1, 2, 3, 1}, nums2[] = new int[] {1, 1, 2, 4, 1}, nums3[] = new int[] {1, 1, 2, 1, 2, 3};
+//		System.out.println(class2.array123(nums) + "\n" + class2.array123(nums2) + "\n" + class2.array123(nums3));
+		
+		String str = "kitten", str2 = "Chocolate", str3 = "CodingHorror";
+		System.out.println(class2.altPairs(str) + "\n" + class2.altPairs(str2) + "\n" + class2.altPairs(str3));
 	}
 }
