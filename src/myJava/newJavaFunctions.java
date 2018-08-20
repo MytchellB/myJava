@@ -79,4 +79,13 @@ public class newJavaFunctions {
 		return -1;	
 	}
 	
+	public String stringTimes(String str, int n) {
+		String newString = "";
+		for ( int i = 0; i < n; i++ ) {
+			newString += str;
+		}
+		return newString;
+	}
+
+	
 }
