@@ -90,16 +90,15 @@ public class newJavaFunctions {
 	public int last2(String str) {
 		String last2Chars = str.substring(str.length() - 2, str.length()), tempStr = "";
 		int last2CharsCount = 0;
-		System.out.println(last2Chars);
-		
 		for ( int i = 0; i < str.length() - 3; i++ ) {
-			tempStr = str.charAt(i);
-			if ( str.charAt(i) + str.charAt(i+1) == tempStr) {
-				
+			tempStr = "";
+			tempStr += str.charAt(i);
+			tempStr += str.charAt(i + 1);
+			if ( tempStr.equals(last2Chars)) {
+				last2CharsCount++;
 			}
 		}
-		
-		return 0;
+		return last2CharsCount;
 	}
 
 	

@@ -74,7 +74,7 @@ public class functionTestCase {
 //		int n = 2, n2 = 3, n3 = 1;
 //		System.out.println(class2.stringTimes(str, n) + "\n" + class2.stringTimes(str, n2) + "\n" + class2.stringTimes(str, n3));
 		
-		String str = "hixxhi";
-		System.out.println(class2.last2(str));
+		String str = "hixxhi", str2 = "xaxxaxaxx", str3 = "axxxaaxx";
+		System.out.println(class2.last2(str) + "\n" + class2.last2(str2) + "\n" + class2.last2(str3));
 	}
 }
