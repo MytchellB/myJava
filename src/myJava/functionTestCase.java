@@ -70,8 +70,11 @@ public class functionTestCase {
 //		int small = 6, big = 1, goal = 11;
 //		System.out.println(class2.makeChocolate(small, big, goal));
 		
-		String str = "Hi";
-		int n = 2, n2 = 3, n3 = 1;
-		System.out.println(class2.stringTimes(str, n) + "\n" + class2.stringTimes(str, n2) + "\n" + class2.stringTimes(str, n3));
+//		String str = "Hi";
+//		int n = 2, n2 = 3, n3 = 1;
+//		System.out.println(class2.stringTimes(str, n) + "\n" + class2.stringTimes(str, n2) + "\n" + class2.stringTimes(str, n3));
+		
+		String str = "hixxhi";
+		System.out.println(class2.last2(str));
 	}
 }
